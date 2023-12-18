@@ -38,10 +38,8 @@ def build_mlp(
         Builds a feedforward neural network
 
         arguments:
-            n_layers: number of hidden layers
             size: list of elements=dimension of each hidden layer
             activation: activation of each hidden layer
-
             input_size: size of the input layer
             output_size: size of the output layer
             output_activation: activation of the output layer

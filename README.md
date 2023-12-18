@@ -6,7 +6,7 @@ An implementation of paper "Physics-informed Representation and Learning: Contro
 
 ### How to Run
 
-For results on value function estimation, run 
+For results on value function estimation, run `value_function_1kd.m`
 
 For results on sample complexity analysis, run  `sample_complexity_3d.m`.
 

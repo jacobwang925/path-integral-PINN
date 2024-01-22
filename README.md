@@ -63,7 +63,7 @@ To train the model, set the desired parameters in `trainer.py` and run
 python src/autoencoder/trainer.py
 ```
 
-## 
+
 
 ## Citation
 

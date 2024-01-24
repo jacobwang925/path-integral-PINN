@@ -19,6 +19,8 @@ conda activate pinn
 
 The simulation uses [DeepXDE](https://arxiv.org/abs/1907.04502) to construct the physics-informed neural networks. See [official document](https://deepxde.readthedocs.io/en/latest/) for installation details.
 
+
+
 ### Path Integral Monte Carlo (MC)
 
 For results on value function estimation, run `value_function_1kd.m`
@@ -41,6 +43,8 @@ python src/PINN/value_function_pde_dim1000.py
 
 or execute [value_function_PDE_1000d.ipynb](https://colab.research.google.com/drive/150h7qsD0H5k4MHqbEe-RwOkmwbq02oEe#scrollTo=Oqs1r8YqY7uE) on Google Colab.
 
+
+
 For value function estimation results on 3d system, run
 
 ```bash
@@ -49,6 +53,8 @@ python src/PINN/value_function_pde_dim3.py
 
 or execute [value_function_PDE_3d.ipynb](https://colab.research.google.com/drive/1UI_UhJBcGr-Y_v4ES0MyQ-DM3YGbNdrK#scrollTo=eZW5wVaMYSHC) on Google Colab.
 
+
+
 For safety probability estimation results on 3d system, run
 
 ```bash
@@ -56,6 +62,8 @@ python src/PINN/safety_probability_dim3.py
 ```
 
 or execute [safety_prob_PDE_3d.ipynb](https://colab.research.google.com/drive/1_qdmKX6u-eRwRi73xR19oX5RhF_BZW49#scrollTo=HYHgzuP6YOKn) on Google Colab.
+
+
 
 ### Autoencoder-like Neural Network
 

@@ -1,6 +1,6 @@
 # path-integral-PINN
 
-An implementation of paper "Physics-informed Representation and Learning: Control and Risk Quantification", accepted at the AAAI 24 conference.
+An implementation of paper ["Physics-informed Representation and Learning: Control and Risk Quantification"](https://arxiv.org/abs/2312.10594), accepted at the AAAI 24 conference.
 
 
 
@@ -69,10 +69,10 @@ or execute [safety_prob_PDE_3d.ipynb](https://colab.research.google.com/drive/1_
 
 Functions to compute the preimage can be found in `utils.py`. 
 
-To train the model, set the desired parameters in `trainer.py` and run
+To train the model, set the desired parameters in `trainer.py` and run the following **with PyTorch as DeepXDE backend** via
 
 ```bash
-python src/autoencoder/trainer.py
+DDEBACKEND=pytorch python src/autoencoder/trainer.py
 ```
 
 
